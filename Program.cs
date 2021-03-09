@@ -110,6 +110,8 @@ Console.Clear();
 
 
 a = a-resolt;
+b = b-resolt2;
+c = c-resolt3;
 Console.WriteLine("El retiro de Ana es de un monto de:" + resolt);
 
 
@@ -141,18 +143,18 @@ Console.WriteLine("El retiro de Jose es de un monto de:" + resolt2);
 
 
 
-if(resolt % 5 == 0){
+if(resolt2 % 5 == 0){
     
-m1= resolt / 1000;
-resolt= resolt % 1000;
-m2= resolt / 500;
-resolt= resolt % 500;
-m3= resolt / 200;
-resolt= resolt % 200;
-m4= resolt / 100;
-resolt= resolt % 100;
-m5= resolt / 50;
-resolt= resolt % 50;
+m1= resolt2 / 1000;
+resolt2= resolt2 % 1000;
+m2= resolt2 / 500;
+resolt2= resolt2 % 500;
+m3= resolt2 / 200;
+resolt2= resolt2 % 200;
+m4= resolt2 / 100;
+resolt2= resolt2 % 100;
+m5= resolt2 / 50;
+resolt2= resolt2 % 50;
 
 }
 
@@ -164,22 +166,22 @@ Console.WriteLine("Billetes de 100 pesos: " + m4);
 Console.WriteLine("Billetes de 50 pesos: " + m5);
 Console.WriteLine();
 Console.WriteLine();
-Console.WriteLine("El retiro de Marcus es de un monto de:" + resolt);
+Console.WriteLine("El retiro de Marcus es de un monto de:" + resolt3);
 
 
 
-if(resolt % 5 == 0){
+if(resolt3 % 5 == 0){
     
-m1= resolt / 1000;
-resolt= resolt % 1000;
-m2= resolt / 500;
-resolt= resolt % 500;
-m3= resolt / 200;
-resolt= resolt % 200;
-m4= resolt / 100;
-resolt= resolt % 100;
-m5= resolt / 50;
-resolt= resolt % 50;
+m1= resolt3 / 1000;
+resolt3= resolt3 % 1000;
+m2= resolt3 / 500;
+resolt3= resolt3 % 500;
+m3= resolt3 / 200;
+resolt3= resolt3 % 200;
+m4= resolt3 / 100;
+resolt3= resolt3 % 100;
+m5= resolt3 / 50;
+resolt3= resolt3 % 50;
 
 }
 
